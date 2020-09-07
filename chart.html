@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chart Blanja</title>
+    <link rel="stylesheet" href="./asset/css/bootstrap.css">
+    <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand">
+        <div class="logo-brand">
+            <img src="./asset/img/logo.svg" alt="brand">
+        </div>
+        <form class="form-inline position-relative d-inline-block my-2 my-lg-0">
+            <input class="form-control rounded-pill" type="search" placeholder="Search" aria-label="Search">
+            <a href="#search"><img class="position-absolute" src="./asset/img/Search Glyph.svg" alt="search"></a>
+        </form>
+        <a href="#filter"><div class="filter rounded ml-2 border-secondary text-center"><img class="mt-2" src="./asset/img/filter.svg" alt="filter-img"></div></a>
+        <div class="troli">
+            <a href="#"><img src="./asset/img/shoppingCart.svg" alt=""></a>
+            <a href="#"><img class="ml-5" src="./asset/img/bell.svg" alt="bel"></a>
+            <a href="#"><img class="ml-5" src="./asset/img/mail.svg" alt="mail"></a>
+            <a href="#"><img class="rounded-circle ml-5" src="./asset/img/user.png" alt="profile"></a>
+        </div>
+    </nav>
+    <p class="h2 mb-3 my-bag">My Bag</h2>
+    <div class="container d-flex">
+        <div class="con1">
+            <div class="shadow d-flex p-3 mb-4 bg-white rounded">
+                <input class="select" type="checkbox">
+                <span class="ml-3">Select all item</span>
+                <span class="text-secondary"> ( 2 items selected)</span>
+                <a href="#">
+                    <div class="d-flex justify-content-end">Delete</div>
+                </a>
+            </div>
+            <div class="shadow card-size p-3 mb-4 bg-white rounded">
+                <div class="form-check mt-3 d-flex">
+                    <input class="form-check-input mt-4" type="checkbox" value="" id="defaultCheck1">
+                    <img class="rounded ml-3 mr-3" src="./asset/img/suit.png" alt="product">
+                    <div class="txt">
+                        <p class="cloth font-weight-bold mt-3">Men's formal suit - Black</p>
+                        <p class="toko text-secondary">Zalora cloth</p>
+                    </div>
+                    <button class="kurangi border-light  rounded-circle">-</button> <span class="jmlh mt-2 ml-2">1</span><button class="tambah rounded-circle">+</button>
+                    <span class="harga mt-3 font-weight-bold">$ 20.0</span>
+                </div>
+            </div>
+            <div class="shadow card-size p-3 mb-4 bg-white rounded">
+                <div class="form-check mt-3 d-flex">
+                    <input class="mt-4 form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <img class="rounded ml-3 mr-3" src="./asset/img/suit.png" alt="product">
+                    <div class="txt">
+                        <p class="cloth font-weight-bold mt-3">Men's formal suit - Black</p>
+                        <p class="toko text-secondary">Zalora cloth</p>
+                    </div>
+                    <button class="kurangi border-light  rounded-circle">-</button> <span class="jmlh  mt-2 ml-2">1</span><button class="tambah rounded-circle">+</button>
+                    <span class="harga mt-3 font-weight-bold">$ 20.0</span>
+                </div>
+            </div>
+        </div>
+        <div class="con2">
+            <div class="shadow ml-5 p-3 mb-5 bg-white rounded">
+                <div class="price  pl-2">
+                    <p class="font-weight-bold mb-4">Shopping Summary</p>
+                    <div class="total">
+                        <span">Total Price</span>
+                        <span class="value">$ 40.0</span>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-block font-weight-bold rounded-pill">Buy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

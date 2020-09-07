@@ -1,0 +1,268 @@
+@font-face {
+    font-family: "metropolis regular";
+    src: url("/asset/font/Metropolis-Regular.woff") format("woff");
+}
+@font-face {
+    font-family: "metropolis bold";
+    src: url("/asset/font/Metropolis-Bold.woff") format("woff");
+}
+body{
+    font-family: "metropolis regular";
+}
+/* login and register page*/
+.value .header .logo{
+    margin-bottom: 40px;
+}
+.value .header img{
+    width: 135px;
+    height: 50px;
+}
+.value .switch .btn{
+    width: 123px;
+    height: 48px;
+}
+.value .tbl .btn{
+    border: 1px solid #00FF00;;
+    background-color: #fff;
+    color: #00FF00;
+    outline: none;
+}
+.value .tbl .btn:focus{
+    border: 1px solid #00FF00;;
+    background-color: #00ff00;
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+}
+.value .auth{
+    width: 400px;
+}
+.value form .text-right{
+    color: #00ff00;
+    margin-bottom: 26px;
+}
+.value form .text-right a{
+    font-size: 15px;
+}
+.value form .btn{
+    background-color: #00ff00;
+    border: 1px solid #00ff00;
+    color: #fff;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+.value .text-center span{
+    font-size: 14px;
+}
+
+/*nav*/
+nav{
+    margin-bottom: 50px;
+    height: 90px;
+    box-shadow: 0px 6px 40px rgba(173, 173, 173, 0.25);
+}
+nav .logo-brand{
+    width: 109px;
+    height: 44px;
+    margin-top: -10px;
+    margin-left: 100px;
+}
+nav .form-inline .form-control{
+    margin-left: 100px;
+    width: 400px;
+    height: 35px;
+}
+nav .form-inline a img{
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+nav .filter{
+    border: 1px solid #000;
+    height: 35px;
+    width: 35px;
+}
+nav .troli{
+    margin-left: 100px;
+    margin-right: 15px;
+}
+nav button{
+    width: 100px;
+}
+
+/* home page*/
+
+.carousel{
+    height: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 80px;
+}
+.carousel .carousel-inner .carousel-item img{
+    height: 150px;
+    width: 455px;
+    filter: saturate(50%);
+}
+.category h2{
+    font-family: "metropolis bold";
+    margin-left: 150px;
+}
+.catalog .text h2{
+    font-family: "metropolis bold";
+    margin-left: 150px;
+}
+.catalog .catalog-value{
+    margin-left: 150px;
+}
+.catalog .catalog-value .card{
+    border-radius: 5px;
+    box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+    width: 193px;
+    height: 275px;
+    margin-right: 20px;
+}
+.catalog .catalog-value .card img{
+    margin-bottom: -10px;
+}
+.catalog .catalog-value .card .card-body .card-text{
+    font-weight: bold;
+    margin-top: -10px;
+}
+.catalog .catalog-value .card .card-body .text-card{
+    font-size: 12px;
+    margin-top: -15px;
+    margin-bottom: 5px;
+    color: #9e9e9e;
+}
+
+/* cart css*/
+.my-bag{
+    font-family: "metropolis bold";
+    margin-left: 170px;
+}
+.container{
+    margin-left: 150px;
+}
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 3px #00FF00;
+}  
+.container .con1 .card-size{
+    width: 650px;
+    height: 126px;
+}
+.container .con1 .shadow .form-check img{
+    width: 69px;
+    height: 69px;
+}
+.container .con1  .shadow .form-check .txt .toko{
+    margin-top: -20px;
+    font-size: 14px;
+}
+.container .con1  .shadow .form-check .kurangi, .tambah{
+    height: 36px;
+    width: 36px;
+    margin-left: 50px;
+    outline: none;
+    border: 1px solid grey;
+}
+.container .con1  .shadow .form-check .tambah{
+    background: #fff;
+    margin-left: 10px;
+    margin-right: 100px;
+}
+.container .con2 .shadow{
+    width: 370px;
+    height: 180px;
+}
+.container .con2 .shadow .price button{
+   margin-top: 35px;
+   background-color: #00FF00;
+   color: #fff;
+   border: 0;
+}
+/* page product */
+.container .gbr .gbig img{
+    width: 378px;
+    height: 378px;
+}
+.container .gbr .gsmall a img{
+    width: 63px;
+    height: 63px;
+}
+.container .desc .btn1{
+    height: 45px;
+    width: 45px;
+    background-color: #fff;
+    border: 0;
+}
+.container .desc .btn1 .satu{
+    height: 36px;
+    width: 36px;
+    margin-left: -2px;
+}
+.container .desc .minat p{
+    margin-bottom: 5px;
+}
+.container .desc .minat button{
+    width: 36px;
+    height: 36px;
+}
+.container .desc .tombol .second{
+    width: 160px;
+    height: 48px;
+}
+.container .desc .tombol .primary{
+    height: 48px;
+    width: 343px;
+}
+
+/*check out*/
+.container .con1 .shadow .addres{
+    font-size: 14px;
+}
+.container .con1 .shadow img{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 70px;
+    height: 70px;
+}
+.container .con1 .shadow .txt .toko{
+    margin-top: -20px;
+}
+.container .con1 .shadow .harga{
+    margin-left: 250px;
+}
+.container .cont2 .shadow{
+    width: 410px;
+    height: 255px;
+}
+.container .cont2 .shadow .payment .price .value{
+    margin-left: 240px;
+}
+.container .cont2 .shadow .payment .total .value{
+    margin-left: 150px;
+}
+.container .cont2 .shadow .payment .deliver .value{
+    margin-left: 225px;
+}
+
+/* profile */
+.contain{
+    margin-top: -50px;
+}
+.contain .bilik1{
+    width: 395px;
+}
+.contain .bilik2{
+    width: 1045px;
+}
+.contain .bilik2 .card{
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 850px;
+    height: 636px;
+}
+
+.contain .bilik2 .card .card-body .form .kartu{
+    width: 345px;
+}
